@@ -39,7 +39,25 @@ header{
 
 }
 
+.menu ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    display: block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+
+}
+
 main{
+    height: auto;
     text-align: center;
     background-color: aliceblue;
     padding: 10px;
@@ -62,7 +80,7 @@ main{
 */ 
 .sidebar{
     width: 17%;
-    height: 700px;
+    height: 100%;
     float: left;
     padding: 10px;
     color: blueviolet;
