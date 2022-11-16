@@ -1,0 +1,198 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+
+body{
+
+    background-color: gray;
+    
+    /* background-image: url(../images/wangxian.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    */ 
+}
+
+h1{
+    font-size: 100px
+}
+header{
+
+    background-color: aqua;
+    text-align: center;
+    color: blueviolet;  
+
+
+}
+
+.menu{
+    padding: 10px;
+   font-size: 20px;
+   text-align: end;
+   border: 1px solid #DDDDDDDD;
+   background-color: aliceblue;
+   display: flex;
+   width: 100%;
+
+
+}
+
+main{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #DDDDDDDD;
+}
+
+  /*
+    
+main{
+    color: blueviolet;
+    width: 100%;
+    background-color: aliceblue;
+
+}
+
+
+   
+}
+*/ 
+.sidebar{
+    width: 17%;
+    height: 700px;
+    float: left;
+    padding: 10px;
+    color: blueviolet;
+    background-color: aqua
+    
+}
+
+.card-container{
+    margin: auto;
+    text-align: center;
+    display: flex;
+
+}
+
+.img{
+    width: 80%;
+    height: 80%;
+    border-radius: 5%;
+}
+.card{
+   
+    padding: 10px;
+    margin: 15px;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 5%;
+    float: right;
+
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(222, 4, 171, 0.2);
+
+}
+
+nav ul{
+
+    list-style-type: none;
+
+}
+
+ul li{
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    text-align: end;
+    color: pink;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.cuerpo{
+    padding:center;
+    margin-right: 50px;
+    position: relative;
+    background-color: aquamarine;
+}
+.card-container{
+
+    width: 100%;
+    margin: center;
+    text-align: center;
+    display: flex;
+
+}
+/*
+
+
+
+nav{
+
+    padding-left: 50px;
+    margin-left: auto;
+    position: absolute;
+
+
+    width: 15%;
+    height: 200px;
+    float: 0 left;
+    padding: 20px;
+    background-color: blanchedalmond;
+
+
+
+}
+}
+ */ 
+
+
+
+
+
+
